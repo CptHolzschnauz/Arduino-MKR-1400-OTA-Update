@@ -1,7 +1,7 @@
 #define SD_CS 4 // SPI Chip select pin for the sd card reader. MUST be 4 because of the SDU lib 
 #include <SD.h>
 // the mighty SDU lib for the sketch update from the SD card
-//#include <SDU.h>
+#include <SDU.h>
 
 // GSM credentials
 const char PINNUMBER[] = "";
