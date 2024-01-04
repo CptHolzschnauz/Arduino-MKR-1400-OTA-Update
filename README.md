@@ -16,6 +16,7 @@ Disadvantages:
 
 - To save SRAM, the operations are done in 512 bytes blocks which makes the process not very fast..
 - It does NOT work with initialized watchdogs (WDTZero.h)
+- It has no error handling for broken socket, a good mobile signal is needed.
 
 
 It's just a assamblage of code written by others, mainly by Giampaolo Mancini, Alexander Entinger, Sandeep Mistry et all so the credit goes there  
