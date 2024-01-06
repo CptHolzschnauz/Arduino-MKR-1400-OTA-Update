@@ -23,7 +23,7 @@ It's just a assamblage of code written by others, mainly by Giampaolo Mancini, A
 
 
 UPDATE: This doesn't wotk very stable, here is a rough version with direct MKRGSM .read and .print 
-
+'''
 #include<SDU.h>
 #include <MKRGSM.h>
 #include <SPI.h>
@@ -107,7 +107,6 @@ void loop()
 
   if (client.available()) {
     char c = client.read();
-
     if (header == true) {
       currentLine += c;
       if (c == '\n') {
@@ -131,7 +130,6 @@ void loop()
     }
     //Serial.print(c);
   }
-
   // if the server's disconnected, stop the client:
   if (!client.available() && !client.connected()) {
     Serial.println();
@@ -144,3 +142,4 @@ void loop()
       ;
   }
 }
+'''
