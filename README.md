@@ -17,6 +17,7 @@ Disadvantages:
 - To save SRAM, the operations are done in 512 bytes blocks which makes the process not very fast..
 - It does NOT work with initialized watchdogs (WDTZero.h)
 - It has no error handling for broken socket, a good mobile signal is needed.
+- If you use Adafruit display or other heavy load on the SPI there might be problems to get the whole download
 
 
 It's just a assamblage of code written by others, mainly by Giampaolo Mancini, Alexander Entinger, Sandeep Mistry et all so the credit goes there  
@@ -25,7 +26,7 @@ It's just a assamblage of code written by others, mainly by Giampaolo Mancini, A
 # UPDATE: A direct to SD version 
 Please see MKRGSM_direct.ino for a simpler and faster version direct from MKRGSM client.read to the SD card.
 The HTTP Header Remover is a hack for Apache under Ubuntu, eventuelly needs adjustment for other webservers
-This is the header i worked with
+This is the header I worked with
 
 HTTP/1.1 200 OK
 Date: Sat, 06 Jan 2024 11:21:13 GMT
