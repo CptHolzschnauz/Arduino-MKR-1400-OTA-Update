@@ -1,4 +1,4 @@
-# Arduino-MKR-1400-OTA-Update
+# Arduino-MKR-1400-OTA-Update with Modem memory
 OTA Update for large sketches on the Arduino MKR 1400
 
 This sketch downloads a large UPDATE.bin to the memory of the modem. 
@@ -22,6 +22,6 @@ Disadvantages:
 It's just a assamblage of code written by others, mainly by Giampaolo Mancini, Alexander Entinger, Sandeep Mistry et all so the credit goes there  
 
 
-# UPDATE: This doesn't work very stable
-Please see MKRGSM.ino for a simpler and faster version direct from MKRGSM client.read to the SD card.
+# UPDATE: A direct to SD version 
+Please see MKRGSM_direct.ino for a simpler and faster version direct from MKRGSM client.read to the SD card.
 The HTTP Header Remover is a hack for Apache under Ubuntu, eventuelly needs adjustment for other webservers
