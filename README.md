@@ -15,7 +15,7 @@ Advantages:
 Disadvantages:
 
 - To save SRAM, the operations are done in 512 bytes blocks which makes the process not very fast..
-- It does NOT work with initialized watchdogs (WDTZero.h)
+- It does NOT work with initialized watchdogs (WDTZero.h et all)
 - It has no error handling for broken socket, a good mobile signal is needed.
 - If you use Adafruit display or other heavy load on the SPI there might be problems to get the whole download
 
@@ -39,3 +39,4 @@ Accept-Ranges: bytes
 Content-Length: 243884
 Content-Type: application/octet-stream
 
+- It does NOT work with initialized watchdogs (WDTZero.h et all)
